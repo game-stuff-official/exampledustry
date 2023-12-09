@@ -34,12 +34,14 @@ research: {
 // Category block will show up in the block slection menu.
 category: defense
 
-// Values special to walls. These are all the defalt values.
+// Values special to walls. These are all the defalt values unless specified.
 // Do -1 to turn of certain things.
+// default -1
 lightningChance: 0.5
 lightningDamage: 20
 lightningLength: 17
 lightningColor: f3e979ff
 lightningSound: spark
+//default -1
 chanceDeflect: 0.25
 // deflectSound: none
