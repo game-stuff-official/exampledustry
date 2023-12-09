@@ -9,7 +9,9 @@ scaledHealth: 100
 // Can power nodes connect to this block.
 connectedPower: false
 // Can block conduct power?
-conductive: true
+conductivePower: true
+// Does block store power?
+hasPower: true
 
 solid: true
 
@@ -19,5 +21,15 @@ requirements: [
   copper/5
 ]
 
-// Category block will show up in the block slection menue.
+// Research is what is needed to research block in tech tree.
+research: {
+  // What the block is connected to
+  parent: copper-wall
+  // What needs to be researched so the block can be researched. Is not connedcted to this block.
+  objectives: [
+    silicon
+  ]
+}
+
+// Category block will show up in the block slection menu.
 category: walls
