@@ -1,6 +1,6 @@
-name: ""
-displayName: ""
-author: ""
-description: ""
-version: 0.0
-minGameVersion: 104
+name: "exampledustry"
+displayName: "Exampledustry"
+author: "GameStuff"
+description: "A hjson mod with garbage content intended for modders to look at for example."
+version: 0.0.0
+minGameVersion: 136
