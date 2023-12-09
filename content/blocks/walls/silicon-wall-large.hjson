@@ -1,0 +1,26 @@
+// Example of a wall that conducts electricity
+name: Large Silicon Wall
+description: A large costly wall that conducts electricity.
+type: wall
+size: 2
+// Health will scale depending on size of the block. This one will be 400.
+scaledHealth: 100
+
+// Can power nodes connect to this block.
+connectedPower: false
+// Can block conduct power?
+conductive: true
+
+solid: true
+
+// Resorces needed to build block. 
+requirements: [
+  silicon/200
+  copper/20
+]
+
+// What you need to research before having access to this.
+research: silicon-wall
+
+// Category block will show up in the block slection menue.
+category: walls
