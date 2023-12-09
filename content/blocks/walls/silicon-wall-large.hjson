@@ -1,10 +1,10 @@
 // Example of a wall that conducts electricity
 name: Large Silicon Wall
-description: A large costly wall that conducts electricity.
+description: A large costly wall that conducts electricity. Will shock you and is bouncy.
 type: wall
 size: 2
 // Health will scale depending on size of the block.
-scaledHealth: 100
+scaledHealth: 350
 
 // Can power nodes connect to this block.
 connectedPower: false
@@ -33,3 +33,13 @@ research: {
 
 // Category block will show up in the block slection menu.
 category: defense
+
+// Values special to walls. These are all the defalt values.
+// Do -1 to turn of certain things.
+lightningChance: 0.5
+lightningDamage: 20
+lightningLength: 17
+lightningColor: f3e979ff
+lightningSound: spark
+chanceDeflect: 0.25
+// deflectSound: none
