@@ -1,0 +1,33 @@
+// Example of a laser eating wall
+
+{
+    name: "Large reinforced plastanium wall"
+    description: "Plastanium wall reinforced with titanium."
+    size: 2
+    type: wall
+    scaledHealth: 150
+    // The wall will show up in the defence category in the block selection menu
+    category: defence
+
+    // 120 plast, 80 titan and 20 meta is required to build this wall.
+    requirements: [
+        plastanium/120
+        titanium/80
+        metaglass/20
+    ]
+
+    // Research
+    research: {
+        // Lead wall will be the child of reinforced-plastanium wall.
+        parent: reinforced-plastanium-wall
+        // These must be researched to use the wall
+        objectives: [
+        titanium,
+        plastanium,
+        metaglass
+        ]
+    }
+
+    // The magic juice that makes this wall eat lasers.
+    absorbLasers: true
+}
