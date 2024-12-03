@@ -1,4 +1,3 @@
-# MindustryMod-Template
-Mindustry Mod Template
-
-フォルダを削除したい場合はフォルダ内の".gitkeep"を消してください。
+# Example Dustry
+The mod that has examples of hjson things.
+You can copy my code if you want I guess.
