@@ -1,3 +1,5 @@
 # Example Dustry
-The mod that has examples of hjson things.
-You can copy my code if you want I guess.
+The mod that has examples of many things in hjson.
+All examples are free to use and are all heavily commented.
+
+Check out the wiki for more detail.
