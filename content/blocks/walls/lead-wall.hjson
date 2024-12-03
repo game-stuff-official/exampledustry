@@ -1,0 +1,28 @@
+// An example of a basic wall.
+
+{
+
+name: "Lead Wall"
+// Scaled health scales with the size of the block
+scaledHealth: 80 // 1^2 * 80 = 80 Health
+size: 1
+type: wall
+// The wall will show up in the defence category in the block selection menu
+category: defence
+
+// 50 lead is required to build this wall.
+requirements: [
+  lead/50
+]
+
+// Research
+research: {
+    // Lead wall will be the child of copper wall.
+    parent: copper-wall
+    // Lead must be researched to use the wall
+    objectives: [
+       lead
+    ]
+}
+
+}

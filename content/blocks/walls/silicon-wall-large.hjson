@@ -1,6 +1,8 @@
-// Example of a wall that conducts electricity
+// Example of a wall that conducts electricity and emits lightning.
+
+{
 name: Large Silicon Wall
-description: A large costly wall that conducts electricity. Will shock you and is bouncy.
+description: "A large costly wall that conducts electricity. Will shock you."
 type: wall
 size: 2
 // Health will scale depending on size of the block.
@@ -10,24 +12,20 @@ scaledHealth: 350
 connectedPower: false
 // Can block conduct power?
 conductivePower: true
-// Does block store power?
-hasPower: true
 
-solid: true
-
-// Resorces needed to build block. 
+// Resorces needed to build block. They are 4x because a 2x2 block has 2x the size of its 1x1 counterpart.
 requirements: [
-  silicon/200
-  copper/20
+  silicon/800
+  copper/80
 ]
 
 // Research is what is needed to research block in tech tree.
 research: {
   // What the block is connected to
   parent: silicon-wall
-  // What needs to be researched so the block can be researched. Is not connedcted to this block.
+  // What needs to be researched so the block can be researched. Is not connedcted to this block or resource.
   objectives: [
-    silicon, copper-wall
+    silicon, copper-wall-large
   ]
 }
 
@@ -38,10 +36,8 @@ category: defense
 // Do -1 to turn of certain things.
 // default -1
 lightningChance: 0.25
-lightningDamage: 20
-lightningLength: 17
+lightningDamage: 15
+lightningLength: 10
 lightningColor: f3e979ff
 lightningSound: spark
-//  default -1
-chanceDeflect: 1
-// deflectSound: none
+}

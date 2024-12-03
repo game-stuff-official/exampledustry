@@ -1,0 +1,28 @@
+// An example of a basic wall.
+
+{
+
+name: "Large Lead Wall"
+// Scaled health scales with the size of the block
+scaledHealth: 80 // 2^2 * 80 = 320 Health
+size: 2
+type: wall
+// The wall will show up in the defence category in the block selection menu
+category: defence
+
+// 200 lead is required to build this wall.
+requirements: [
+  lead/200
+]
+
+// Research
+research: {
+    // Large lead wall will be the child of lead wall.
+    parent: lead-wall
+    // Lead must be researched to use the wall
+    objectives: [
+       lead
+    ]
+}
+
+}
