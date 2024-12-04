@@ -12,7 +12,7 @@ category: defense
 
 // 200 lead is required to build this wall.
 requirements: [
-  lead/200
+  lead/24
 ]
 
 // Research

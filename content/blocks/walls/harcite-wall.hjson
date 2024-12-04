@@ -16,6 +16,6 @@ flashHit: false
 flashColor: ffffff
 deflectSound: none
 requirements:[
-    harcite/10
+    harcite/6
 ]
 }

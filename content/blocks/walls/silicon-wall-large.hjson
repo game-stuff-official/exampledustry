@@ -15,7 +15,7 @@ conductivePower: true
 
 // Resorces needed to build block. They are 4x because a 2x2 block has 2x the size of its 1x1 counterpart.
 requirements: [
-  silicon/40
+  silicon/24
   copper/8
 ]
 

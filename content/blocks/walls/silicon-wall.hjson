@@ -16,7 +16,7 @@ conductivePower: true
 
 // Resorces needed to build block. 
 requirements: [
-  silicon/10
+  silicon/6
   copper/2
 ]
 

@@ -16,6 +16,6 @@ flashHit: false
 flashColor: ffffff
 deflectSound: none
 requirements:[
-    charged-alloy/15
+    charged-alloy/8
 ]
 }

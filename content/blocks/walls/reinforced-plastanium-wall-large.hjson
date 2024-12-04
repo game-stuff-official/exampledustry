@@ -11,9 +11,9 @@
 
     // 120 plast, 80 titan and 20 meta is required to build this wall.
     requirements: [
-        plastanium/120
-        titanium/80
-        metaglass/20
+        plastanium/32
+        titanium/24
+        metaglass/16
     ]
 
     // Research

@@ -1,5 +1,5 @@
 {
-name: Harcite Wall
+name: Large Harcite Wall
 description: Weak and brittle wall but realeases raw arcs of energy.
 scaledHealth: 150
 type: wall
@@ -16,6 +16,6 @@ flashHit: false
 flashColor: ffffff
 deflectSound: none
 requirements:[
-    harcite/40
+    harcite/24
 ]
 }
