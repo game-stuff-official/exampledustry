@@ -15,8 +15,8 @@ conductivePower: true
 
 // Resorces needed to build block. They are 4x because a 2x2 block has 2x the size of its 1x1 counterpart.
 requirements: [
-  silicon/800
-  copper/80
+  silicon/40
+  copper/8
 ]
 
 // Research is what is needed to research block in tech tree.
@@ -35,8 +35,8 @@ category: defense
 // Values special to walls. These are all the defalt values.
 // Do -1 to turn of certain things.
 // default -1
-lightningChance: 0.25
-lightningDamage: 15
+lightningChance: 0.20
+lightningDamage: 10
 lightningLength: 10
 lightningColor: f3e979ff
 lightningSound: spark

@@ -16,8 +16,8 @@ conductivePower: true
 
 // Resorces needed to build block. 
 requirements: [
-  silicon/200
-  copper/20
+  silicon/10
+  copper/2
 ]
 
 // Research is what is needed to research block in tech tree.
@@ -36,8 +36,8 @@ category: defense
 // Values that are special to walls. These are the values for creating shock walls.
 // Do -1 to turn of certain things.
 // default -1
-lightningChance: 0.25
-lightningDamage: 15
+lightningChance: 0.20
+lightningDamage: 10
 lightningLength: 10
 lightningColor: f3e979ff
 lightningSound: spark

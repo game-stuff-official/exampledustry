@@ -1,0 +1,13 @@
+{
+    name: Charged Alloy
+    description: "Strong alloy, stores energy before releasing it in arcs of electricity."
+    type: item
+    // color: d6d267
+    radioactivity: 0
+    charge: 3
+    // hardness: 5
+    cost: 10
+    frames: 2
+    transitionFrames: 1
+    frameTime: 30
+}

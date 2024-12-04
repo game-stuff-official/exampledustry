@@ -1,0 +1,21 @@
+{
+name: Harcite Wall
+description: Weak and brittle wall but realeases raw arcs of energy.
+scaledHealth: 150
+type: wall
+size: 2
+category: defense
+// Wall Specific Values
+lightningChance: 0.5
+lightningDamage: 20
+lightningLength: 15
+lighningColor: 000000
+lightningSound: spark
+chanceDeflect: -1
+flashHit: false
+flashColor: ffffff
+deflectSound: none
+requirements:[
+    harcite/40
+]
+}

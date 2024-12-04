@@ -1,0 +1,21 @@
+{
+name: Charged Wall
+description: Releases huge arcs of electricity. Stronger than a harcite wall.
+scaledHealth: 360
+type: wall
+size: 2
+category: defense
+// Wall Specific Values
+lightningChance: 0.25
+lightningDamage: 80
+lightningLength: 30
+lighningColor: 000000
+lightningSound: spark
+chanceDeflect: -1
+flashHit: false
+flashColor: ffffff
+deflectSound: none
+requirements:[
+    charged-alloy/60
+]
+}
