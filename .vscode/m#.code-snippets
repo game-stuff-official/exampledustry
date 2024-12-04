@@ -65,7 +65,7 @@
 			"scaledHealth: $3",
 			"type: wall",
 			"size: $4",
-			"category: defence",
+			"category: defense",
 			"// Wall Specific Values",
 			"lightningChance: -1",
 			"lightningDamage: 20",

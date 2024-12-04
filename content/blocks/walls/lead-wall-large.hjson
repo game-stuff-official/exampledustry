@@ -7,8 +7,8 @@ name: "Large Lead Wall"
 scaledHealth: 80 // 2^2 * 80 = 320 Health
 size: 2
 type: wall
-// The wall will show up in the defence category in the block selection menu
-category: defence
+// The wall will show up in the defense category in the block selection menu
+category: defense
 
 // 200 lead is required to build this wall.
 requirements: [

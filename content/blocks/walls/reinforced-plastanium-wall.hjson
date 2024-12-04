@@ -6,8 +6,8 @@
     size: 1
     type: wall
     scaledHealth: 150
-    // The wall will show up in the defence category in the block selection menu
-    category: defence
+    // The wall will show up in the defense category in the block selection menu
+    category: defense
 
     // 30 plast, 20 titan and 5 meta is required to build this wall.
     requirements: [

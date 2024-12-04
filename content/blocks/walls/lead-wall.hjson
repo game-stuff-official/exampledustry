@@ -7,8 +7,8 @@ name: "Lead Wall"
 scaledHealth: 80 // 1^2 * 80 = 80 Health
 size: 1
 type: wall
-// The wall will show up in the defence category in the block selection menu
-category: defence
+// The wall will show up in the defense category in the block selection menu
+category: defense
 
 // 50 lead is required to build this wall.
 requirements: [
