@@ -1,0 +1,23 @@
+{
+name: Large Explodium Wall
+description: A large dangerous wall. FUCKING EXPLODES
+scaledHealth: 260
+type: wall
+size: 2
+category: defense
+// Wall Specific Values
+lightningChance: 1
+lightningDamage: 2000
+lightningLength: 1000
+lighningColor: ff0000
+lightningSound: spark
+chanceDeflect: -1
+flashHit: false
+flashColor: ffffff
+deflectSound: none
+
+requirements:[
+    explodium/24
+    blast-compound/12
+]
+}

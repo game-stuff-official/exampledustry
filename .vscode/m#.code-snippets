@@ -11,7 +11,7 @@
 	// Using m#:[type] will expand out the fields of that type.
 	// m#:wall will expand out into a basic wall template.
 	"Vanilla Items":{
-		"prefix": "m#-i",
+		"prefix": "m!i",
 		"body": "${1|copper, scrap, lead, graphite, coal, titanium, thorium, silicon, plastanium, phase-fabric, surge-alloy, spore-pod, sand, blast-compound, pyratite, metaglass, beryllium, tungsten, oxide, carbide, fissile-matter, dormant-cyst|}"
 	},
 	"Type": {
@@ -83,7 +83,7 @@
 
 	"Requirements":{
 		"prefix": [
-			"m#req",
+			"m!req",
 		],
 		"body": "requirements:[\n\t$0\n]",
 		"description": "Requirements needed to build a block."
