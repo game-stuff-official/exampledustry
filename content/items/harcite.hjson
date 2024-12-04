@@ -1,0 +1,13 @@
+{
+    name: Harcite
+    description: "Rare metal forged in the heart of stars."
+    type: item
+    color: d6d267
+    radioactivity: 1
+    charge: 5
+    hardness: 5
+    cost: 10
+    frames: 2
+    transitionFrames: 1
+    frameTime: 30
+}
