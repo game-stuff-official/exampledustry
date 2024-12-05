@@ -1,0 +1,8 @@
+{
+name: Explodium
+type: floorOverlay
+itemDrop: explodium
+variants: 3
+hasColor: d44e4e
+mapColor: 7248a8
+}
