@@ -1,8 +1,9 @@
 {
 name: Harcite
-type: floorOverlay
+type: OverlayFloor
 itemDrop: harcite
 variants: 3
 hasColor: true
 mapColor: 7248a8
+wallOre: false
 }

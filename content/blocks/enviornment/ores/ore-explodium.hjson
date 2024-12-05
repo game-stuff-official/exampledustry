@@ -1,8 +1,9 @@
 {
 name: Explodium
-type: floorOverlay
+type: OverlayFloor
 itemDrop: explodium
 variants: 3
 hasColor: d44e4e
 mapColor: 7248a8
+wallOre: false
 }
