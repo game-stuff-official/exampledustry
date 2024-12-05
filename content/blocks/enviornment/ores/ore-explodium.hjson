@@ -4,6 +4,6 @@ type: OverlayFloor
 itemDrop: explodium
 variants: 3
 hasColor: true
-mapColor: 7248a8
+mapColor: d44e4e
 wallOre: false
 }
