@@ -70,7 +70,7 @@
 			"lightningChance: -1",
 			"lightningDamage: 20",
 			"lightningLength: 17",
-			"lighningColor: f3e979",
+			"lightningColor: f3e979",
 			"lightningSound: spark",
 			"chanceDeflect: -1",
 			"flashHit: false",

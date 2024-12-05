@@ -9,7 +9,7 @@ category: defense
 lightningChance: 0.25
 lightningDamage: 80
 lightningLength: 30
-lighningColor: 000000
+lightningColor: 000000
 lightningSound: spark
 chanceDeflect: -1
 flashHit: false
