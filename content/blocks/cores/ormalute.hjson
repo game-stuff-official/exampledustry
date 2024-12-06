@@ -1,0 +1,24 @@
+{
+    name: "Ormalute"
+    description: "A stupid core, that dosen't deserve to exist."
+    type: CoreBlock
+    thruster1: ormalute-thruster1
+    thruster2: ormalute-thruster2
+    thrusterLength: 4 // 4 units in length is one block.
+    unitType: oct
+    // armour: 10f
+    health: 1200
+    isFirstTier: true
+    itemCapacity: 4001
+    unitCapModifier: 9
+    requirements:[
+        explodium/1000
+        copper/5000
+        lead/2000
+    ]
+    alwaysUnlocked: true
+    landDuration: 320
+    research: {
+        root: true
+    }
+}
