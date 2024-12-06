@@ -27,38 +27,40 @@ destroyBullet: {
     collides: false
     hittable: false
     hitEffect: none
-    despawnEffect: none
-    splashDamage: 400
-    splashDamageRadius: 800
+    // despawnEffect: none
+    splashDamage: 150
+    splashDamageRadius: 20
 
     despawnEffect: [
-        // {
-        // type: ParticleEffect
-        // colorFrom: ffffff
-        // colorTo: ff0000
-        // particles: 12
-        // randLength: true
-        // sizeFrom: 10
-        // sizeTo: 0
-        // region: circle
-        // }
-        // {
-        // type: ParticleEffect
-        // colorFrom: ffffff
-        // colorTo: 888888
-        // particles: 12
-        // randLength: true
-        // sizeFrom: 8
-        // sizeTo: 0
-        // region: circle
-        // }
+        {
+        lifetime: 800
+        type: ParticleEffect
+        colorFrom: ffffff
+        colorTo: ff0000
+        particles: 12
+        randLength: true
+        sizeFrom: 10
+        sizeTo: 0
+        region: circle
+        }
+        {
+            lifetime: 400
+        type: ParticleEffect
+        colorFrom: ffffff
+        colorTo: 888888
+        particles: 10
+        randLength: true
+        sizeFrom: 8
+        sizeTo: 0
+        region: circle
+        }
         {
             type: ExplosionEffect
             waveColor: ff0000
-            smokeSize: 100
-            smokeSizeBase: 10
+            smokeSize: 10
+            smokeSizeBase: 0.1
             smokes: 10
-            sparks: 9
+            sparks: 10
         }
     ]
     // fragBullets: 5
