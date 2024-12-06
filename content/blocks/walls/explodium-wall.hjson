@@ -6,11 +6,11 @@ type: wall
 size: 1
 category: defense
 // Wall Specific Values
-lightningChance: 1
-lightningDamage: 2000
-lightningLength: 1000
-lightningColor: ff0000
-lightningSound: spark
+// lightningChance: 1
+// lightningDamage: 2000
+// lightningLength: 1000
+// lightningColor: ff0000
+// lightningSound: spark
 chanceDeflect: -1
 flashHit: false
 flashColor: ffffff
@@ -19,4 +19,54 @@ requirements:[
     explodium/6
     blast-compound/3
 ]
+
+destroyBullet: {
+    type: BulletType
+    speed: 0
+    lifetime: 0
+    collides: false
+    hittable: false
+    hitEffect: none
+    despawnEffect: none
+    splashDamage: 400
+    splashDamageRadius: 800
+
+    despawnEffect: [
+        // {
+        // type: ParticleEffect
+        // colorFrom: ffffff
+        // colorTo: ff0000
+        // particles: 12
+        // randLength: true
+        // sizeFrom: 10
+        // sizeTo: 0
+        // region: circle
+        // }
+        // {
+        // type: ParticleEffect
+        // colorFrom: ffffff
+        // colorTo: 888888
+        // particles: 12
+        // randLength: true
+        // sizeFrom: 8
+        // sizeTo: 0
+        // region: circle
+        // }
+        {
+            type: ExplosionEffect
+            waveColor: ff0000
+            smokeSize: 100
+            smokeSizeBase: 10
+            smokes: 10
+            sparks: 9
+        }
+    ]
+    // fragBullets: 5
+    // fragBullet: {
+    //     absorbable: false
+    //     pierce: true
+    //     pierceBuildings: true
+    // }
+}
+
 }
