@@ -18,7 +18,7 @@
         lead/2000
     ]
     alwaysUnlocked: true
-    landDuration: 320
+    landDuration: 320 // Will be used in V8
     research: {
         root: true
     }

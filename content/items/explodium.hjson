@@ -1,7 +1,7 @@
 {
     name: Explodium
     description: Dangerous item, there's no reason to have this in your possession.
-    type: item
+    
     color: d44e4e
     explosiveness: 200
 }

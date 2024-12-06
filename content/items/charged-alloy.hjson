@@ -1,7 +1,7 @@
 {
     name: Charged Alloy
     description: "Strong alloy, stores energy before releasing it in arcs of electricity."
-    type: item
+    
     // color: d6d267
     radioactivity: 0
     charge: 3
