@@ -2,6 +2,7 @@
     name: "Ormalute"
     description: "A stupid core, that dosen't deserve to exist."
     type: CoreBlock
+    size: 3
     // thruster1: ormalute-thruster1
     // thruster2: ormalute-thruster2
     thrusterLength: 4 // 4 units in length is one block.
