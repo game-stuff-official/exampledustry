@@ -61,15 +61,15 @@ destroyBullet: {
         length: 200
         interp: pow2Out
         }
-        // {
-        //     type: ExplosionEffect
-        //     waveColor: ff0000
-        //     smokeSize: 10
-        //     smokeSizeBase: 0.1
-        //     smokes: 10
-        //     sparks: 10
-        //     // length: 30
-        // }
+        {
+            type: ExplosionEffect
+            waveColor: ff0000
+            smokeSize: 10
+            smokeSizeBase: 0.1
+            smokes: 10
+            sparks: 10
+            // length: 30
+        }
     ]
     // fragBullets: 5
     // fragBullet: {
