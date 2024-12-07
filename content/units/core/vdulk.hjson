@@ -1,5 +1,5 @@
 {
-    type: CoreUnit
+    type: UnitType
     aiController: BuilderAI
     isEnemy:false  
 
