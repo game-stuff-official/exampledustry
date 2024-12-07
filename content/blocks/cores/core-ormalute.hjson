@@ -6,7 +6,7 @@
     // thruster1: ormalute-thruster1
     // thruster2: ormalute-thruster2
     thrusterLength: 4 // 4 units in length is one block.
-    unitType: oct
+    unitType: vdulk
     // armour: 10f
     health: 1200
     isFirstTier: true
