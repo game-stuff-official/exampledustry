@@ -43,7 +43,7 @@ destroyBullet: {
         sizeTo: 0
         region: circle
         length: 200
-        interp: pow2
+        interp: pow2Out
         }
         {
         lifetime: 80
@@ -56,7 +56,7 @@ destroyBullet: {
         sizeTo: 0
         region: circle
         length: 100
-        interp: pow2
+        interp: pow2Out
         }
         {
             type: ExplosionEffect
