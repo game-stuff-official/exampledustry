@@ -4,7 +4,6 @@
     // type: UnitType
     type: flying
     flying: true
-    // aiController: BuilderAI
     isEnemy:false  
 
     lowAltitude:true
