@@ -6,11 +6,11 @@ type: wall
 size: 2
 category: defense
 // Wall Specific Values
-lightningChance: 1
-lightningDamage: 2000
-lightningLength: 1000
-lightningColor: ff0000
-lightningSound: spark
+// lightningChance: 1
+// lightningDamage: 2000
+// lightningLength: 1000
+// lightningColor: ff0000
+// lightningSound: spark
 chanceDeflect: -1
 flashHit: false
 flashColor: ffffff
