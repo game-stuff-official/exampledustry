@@ -56,7 +56,7 @@ destroyBullet: {
         sizeTo: 0
         region: circle
         length: 100
-        pow2
+        interp: pow2
         }
         {
             type: ExplosionEffect
