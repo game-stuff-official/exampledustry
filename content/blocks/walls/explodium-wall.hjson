@@ -27,10 +27,10 @@ destroyBullet: {
     collides: false
     hittable: false
     hitEffect: none
-    // despawnEffect: none
+    despawnSound: explosion
     splashDamage: 75
     splashDamageRadius: 75
-
+    knockBack: 1
     despawnEffect: [
         {
         lifetime: 40
