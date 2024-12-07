@@ -30,7 +30,6 @@ destroyBullet: {
     despawnSound: explosion
     splashDamage: 75
     splashDamageRadius: 75
-    knockBack: 1
     despawnEffect: [
         {
         lifetime: 40

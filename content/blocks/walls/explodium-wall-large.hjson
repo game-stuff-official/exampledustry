@@ -32,8 +32,6 @@ destroyBullet: {
     splashDamage: 75
     splashDamageRadius: 150 //should be double explodium wall
     despawnSound: dullExplosion
-    knockBack: 4
-
     despawnEffect: [
         {
             lifetime: 40
