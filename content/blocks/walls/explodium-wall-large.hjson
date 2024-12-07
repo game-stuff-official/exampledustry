@@ -6,11 +6,11 @@ type: wall
 size: 2
 category: defense
 // Wall Specific Values
-// lightningChance: 1
-// lightningDamage: 2000
-// lightningLength: 1000
-// lightningColor: ff0000
-// lightningSound: spark
+lightningChance: 1
+lightningDamage: 2000
+lightningLength: 1000
+lightningColor: ff0000
+lightningSound: spark
 chanceDeflect: -1
 flashHit: false
 flashColor: ffffff
@@ -32,6 +32,7 @@ destroyBullet: {
     splashDamage: 75
     splashDamageRadius: 150 //should be double explodium wall
     despawnSound: dullExplosion
+    knockBack: 4
 
     despawnEffect: [
         {
@@ -46,30 +47,29 @@ destroyBullet: {
         region: circle
         length: 400
         interp: pow2Out
-        knockBack: 4
         }
-        {
-        lifetime: 80
-        type: ParticleEffect
-        colorFrom: ffffffff
-        colorTo: 88888800
-        particles: 16
-        randLength: true
-        sizeFrom: 8
-        sizeTo: 0
-        region: circle
-        length: 200
-        interp: pow2Out
-        }
-        {
-            type: ExplosionEffect
-            waveColor: ff0000
-            smokeSize: 10
-            smokeSizeBase: 0.1
-            smokes: 10
-            sparks: 10
-            // length: 30
-        }
+        // {
+        // lifetime: 80
+        // type: ParticleEffect
+        // colorFrom: ffffffff
+        // colorTo: 88888800
+        // particles: 16
+        // randLength: true
+        // sizeFrom: 8
+        // sizeTo: 0
+        // region: circle
+        // length: 200
+        // interp: pow2Out
+        // }
+        // {
+        //     type: ExplosionEffect
+        //     waveColor: ff0000
+        //     smokeSize: 10
+        //     smokeSizeBase: 0.1
+        //     smokes: 10
+        //     sparks: 10
+        //     // length: 30
+        // }
     ]
     // fragBullets: 5
     // fragBullet: {
