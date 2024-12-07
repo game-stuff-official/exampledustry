@@ -19,10 +19,6 @@ requirements: [
 research: {
     // Large lead wall will be the child of lead wall.
     parent: lead-wall
-    // Lead must be researched to use the wall
-    objectives: [
-       lead
-    ]
 }
 
 }

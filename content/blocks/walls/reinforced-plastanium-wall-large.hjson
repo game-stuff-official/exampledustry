@@ -21,11 +21,11 @@
         // This wall will be the child of reinforced-plastanium wall.
         parent: reinforced-plastanium-wall
         // These must be researched to use the wall
-        objectives: [
-        titanium,
-        plastanium,
-        metaglass
-        ]
+        // objectives: [
+        // titanium,
+        // plastanium,
+        // metaglass
+        // ]
     }
 
     // The magic juice that makes this wall eat lasers.

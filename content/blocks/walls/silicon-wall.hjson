@@ -25,9 +25,9 @@ research: {
   // What the block is connected to
   parent: lead-wall
   // What needs to be researched so the block can be researched. Is not connedcted to this block or resource.
-  objectives: [
-    silicon
-  ]
+  // objectives: [
+  //   silicon
+  // ]
 }
 
 // Category block will show up in the block slection menu.

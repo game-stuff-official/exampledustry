@@ -20,8 +20,8 @@ requirements:[
 ]
 research: {
     parent: lead-wall
-    objectives: [
-        harcite
-    ]
+    // objectives: [
+    //     harcite
+    // ]
 }
 }
