@@ -1,5 +1,6 @@
+{
 name: Lead Conveyor
-// Does not accept inputs from sides. If you would rather it be normal then do just conveyor.
+// Does not accept inputs from sides. If you would rather it be normal then do just Conveyor.
 type: ArmoredConveyor
 health: 60
 category: distribution
@@ -10,4 +11,7 @@ requirements: [
 // Speed of conveyor. Conveyor has speed of 0.03. 0.12 is 4x as fast.
 speed: 0.12
 displayedSpeed: 33.6
-research: conveyor
+research: {
+  parent: core-ormalute
+}
+}
