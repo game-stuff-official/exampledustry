@@ -33,28 +33,28 @@ destroyBullet: {
 
     despawnEffect: [
         {
-        lifetime: 80
+        lifetime: 40
         type: ParticleEffect
         colorFrom: ff0000
-        colorTo: aaaaaa
-        particles: 12
+        colorTo: aaaaaa00
+        particles: 6
         randLength: true
         sizeFrom: 10
         sizeTo: 0
         region: circle
-        length: 20
+        length: 200
         }
         {
-            lifetime: 40
+        lifetime: 20
         type: ParticleEffect
         colorFrom: ffffff
         colorTo: 888888
-        particles: 10
+        particles: 4
         randLength: true
         sizeFrom: 8
         sizeTo: 0
         region: circle
-        length: 10
+        length: 100
         }
         {
             type: ExplosionEffect
@@ -63,7 +63,7 @@ destroyBullet: {
             smokeSizeBase: 0.1
             smokes: 10
             sparks: 10
-            length: 30
+            // length: 30
         }
     ]
     // fragBullets: 5
