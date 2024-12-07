@@ -43,7 +43,7 @@ destroyBullet: {
         sizeTo: 0
         region: circle
         length: 200
-        interp: pow1
+        interp: pow2
         }
         {
         lifetime: 80
