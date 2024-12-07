@@ -52,7 +52,7 @@ destroyBullet: {
         colorTo: 88888800
         particles: 8
         randLength: true
-        sizeFrom: 32
+        sizeFrom: 8
         sizeTo: 0
         region: circle
         length: 100
