@@ -48,19 +48,19 @@ destroyBullet: {
         length: 400
         interp: pow2Out
         }
-        // {
-        // lifetime: 80
-        // type: ParticleEffect
-        // colorFrom: ffffffff
-        // colorTo: 88888800
-        // particles: 16
-        // randLength: true
-        // sizeFrom: 8
-        // sizeTo: 0
-        // region: circle
-        // length: 200
-        // interp: pow2Out
-        // }
+        {
+        lifetime: 80
+        type: ParticleEffect
+        colorFrom: ffffffff
+        colorTo: 88888800
+        particles: 16
+        randLength: true
+        sizeFrom: 8
+        sizeTo: 0
+        region: circle
+        length: 200
+        interp: pow2Out
+        }
         // {
         //     type: ExplosionEffect
         //     waveColor: ff0000
