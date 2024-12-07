@@ -23,10 +23,10 @@ requirements: [
 // Research is what is needed to research block in tech tree.
 research: {
   // What the block is connected to
-  parent: silicon-wall
+  parent: lead-wall
   // What needs to be researched so the block can be researched. Is not connedcted to this block or resource.
   objectives: [
-    silicon, copper-wall
+    silicon
   ]
 }
 

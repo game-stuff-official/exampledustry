@@ -1,63 +1,67 @@
+// Custom snippets for use in mindustry hjson files
+// m is the prefix for this whole thing.
+
+// m- is vanilla selector.
+// m# is for type templates
+// m! is for fields
+
 {
-  // "Vanilla Resources":{
-	// 	"prefix": "m#v:r",
-	// 	"body": [
-	// 		"${1|copper, lead, titanium, graphite, surge, thorium, sand, scrap, phase-fabric|}"
-	// 	]
-	// },
-
-	// Colon ":" is a type selector. m#: will suggest types.
-
-	// Using m#:[type] will expand out the fields of that type.
-	// m#:wall will expand out into a basic wall template.
-	"Vanilla Items":{
-		"prefix": "m!i",
-		"body": "${1|copper, scrap, lead, graphite, coal, titanium, thorium, silicon, plastanium, phase-fabric, surge-alloy, spore-pod, sand, blast-compound, pyratite, metaglass, beryllium, tungsten, oxide, carbide, fissile-matter, dormant-cyst|}"
-	},
-	"Type": {
-		"prefix": [
-			"m#:"
-			// "m#type"
-		],
+	"Vanilla Resources":{
+		"prefix": "m-r",
 		"body": [
-			"type: ${1|block, wall|}"
-		],
-		"description": "Select a type."
-	},
+			"${1|copper, lead, titanium, graphite, surge, thorium, sand, scrap, phase-fabric|}"
+		]
+		},
+
+
+		"Vanilla Items":{
+			"prefix": "m-i",
+			"body": "${1|copper, scrap, lead, graphite, coal, titanium, thorium, silicon, plastanium, phase-fabric, surge-alloy, spore-pod, sand, blast-compound, pyratite, metaglass, beryllium, tungsten, oxide, carbide, fissile-matter, dormant-cyst|}"
+		},
+	//   "Type": {
+	// 	  "prefix": [
+	// 		  "m#:"
+	// 		  // "m#type"
+	// 	  ],
+	// 	  "body": [
+	// 		  "type: ${1|block, wall|}"
+	// 	  ],
+	// 	  "description": "Select a type."
+	//   },
 	"Research": {
-		"prefix": ["m#research"],
+		"prefix": ["m#research", "m#res"],
 		"body": [
 			"research: {",
-			"\tparent: $1",
+			"\t${1|parent,root|}: $2",
 			"\tobjectives: [",
-			"\t\t$2",
+			"\t\t$3",
 			"\t]",
-			"}"
+			"}$0"
 		],
 		"description": "Expanded Research."
 	},	
-	"Block": {
-		"prefix": [
-			// "type: block",
-			// "type: blockm#",
-			"m#:block"
-		],
-		"body": [
-			"name: $1",
-			"description: $2",
-			"health: $3",
-			"type: $4",
-			"size: $5",
-			"category: $6"
-		],
-		"description": "Gives the basic values for blocks"
-	},
+	//   "Block": {
+	// 	  "prefix": [
+	// 		  // "type: block",
+	// 		  // "type: blockm#",
+	// 		  "m#:block"
+	// 	  ],
+	// 	  "body": [
+	// 		  "name: $1",
+	// 		  "description: $2",
+	// 		  "health: $3",
+	// 		  "type: $4",
+	// 		  "size: $5",
+	// 		  "category: $6"
+	// 	  ],
+	// 	  "description": "Gives the basic values for blocks"
+	//   },
 	//			WALLS
 	"Wall":{
 		"prefix": [
-			"type: wall",
+			//   "type: wall",
 			// "type: wallm#",
-			"m#:wall"
+			"m!wall"
 		],
 		"body": [
 			"name: $1",
@@ -67,25 +71,49 @@
 			"size: $4",
 			"category: defense",
 			"// Wall Specific Values",
-			"lightningChance: -1",
-			"lightningDamage: 20",
-			"lightningLength: 17",
-			"lightningColor: f3e979",
-			"lightningSound: spark",
-			"chanceDeflect: -1",
-			"flashHit: false",
-			"flashColor: ffffff",
-			"deflectSound: none"
+			"lightningChance: ${5:-1}",
+			"lightningDamage: ${6:20}",
+			"lightningLength: ${7:17}",
+			"lighningColor: ${8:f3e979}",
+			"lightningSound: ${9:spark}",
+			"chanceDeflect: ${10:-1}",
+			"flashHit: ${11:false}",
+			"flashColor: ${12:ffffff}",
+			"deflectSound: ${13:none}"
 		],
 		"description": "Creates a basic wall with default wall specific values."
+	},
+	"Item":{
+		"prefix": "m!item",
+		"body": [
+			"name: $1",
+			"description: $2",
+			"type: item",
+			"color: ${3:ffffff}",
+			"explosiveness: ${4:0}",
+			"flammability: ${5:0}",
+			"radioactivity: ${6:0}",
+			"charge: ${7:0}",
+			"hardness: ${8:0}",
+			"cost: ${9:0}",
+			"healthScaling: ${10:0}",
+			"lowPriority: ${11:false}",
+			"frames: ${12:0}",
+			"transitionFrames: ${13:0}",
+			"frameTime: ${14:0}",
+			"buildable: ${15:true}",
+			"hidden: ${16:false}",
+			// "hiddenOnPlanets: "
+		]
 	},
 
 
 	"Requirements":{
 		"prefix": [
-			"m!req",
+			"m#req",
 		],
 		"body": "requirements:[\n\t$0\n]",
-		"description": "Requirements needed to build a block."
+		"description": "Requirements needed to build a block. Dont forget to use item stacks."
+	},
+
 	}
-}

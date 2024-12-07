@@ -18,4 +18,10 @@ deflectSound: none
 requirements:[
     charged-alloy/8
 ]
+research: {
+    parent: harcite-wall
+    // objectives: [
+    //     geode-cracker
+    // ]
+}
 }

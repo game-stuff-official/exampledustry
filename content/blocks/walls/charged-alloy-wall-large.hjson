@@ -18,4 +18,13 @@ deflectSound: none
 requirements:[
     charged-alloy/32
 ]
+research: {
+    parent: charged-alloy-wall
+}
+research: {
+    ${1|parent: a, root: true|}
+    objectives: [
+        
+    ]
+}
 }

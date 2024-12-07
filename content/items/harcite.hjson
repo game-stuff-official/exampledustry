@@ -10,4 +10,8 @@
     // frames: 2
     // transitionFrames: 1
     // frameTime: 30
+
+    research: {
+        parent: core-ormalute
+    }
 }

@@ -18,4 +18,7 @@ deflectSound: none
 requirements:[
     harcite/24
 ]
+research: {
+    parent: harcite-wall
+}
 }

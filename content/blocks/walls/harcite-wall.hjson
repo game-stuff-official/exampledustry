@@ -18,4 +18,10 @@ deflectSound: none
 requirements:[
     harcite/6
 ]
+research: {
+    parent: lead-wall
+    objectives: [
+        harcite
+    ]
+}
 }

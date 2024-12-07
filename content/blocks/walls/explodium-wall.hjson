@@ -74,5 +74,10 @@ destroyBullet: {
     //     pierceBuildings: true
     // }
 }
-
+research: {
+    parent: lead-wall
+    objectives: [
+        explodium
+    ]
+}
 }

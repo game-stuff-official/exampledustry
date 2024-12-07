@@ -76,5 +76,7 @@ destroyBullet: {
     //     pierceBuildings: true
     // }
 }
-
+research: {
+    parent: explodium-wall
+}
 }

@@ -17,8 +17,8 @@ requirements: [
 
 // Research
 research: {
-    // Lead wall will be the child of copper wall.
-    parent: copper-wall
+    // Ormalute wall will be the child of copper wall.
+    parent: core-ormalute
     // Lead must be researched to use the wall
     objectives: [
        lead

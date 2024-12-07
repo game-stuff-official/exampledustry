@@ -4,4 +4,8 @@
     
     color: d44e4e
     explosiveness: 200
+
+    research: {
+        parent: core-ormalute
+    }
 }

@@ -25,7 +25,7 @@ research: {
   parent: silicon-wall
   // What needs to be researched so the block can be researched. Is not connedcted to this block or resource.
   objectives: [
-    silicon, copper-wall-large
+    silicon
   ]
 }
 
