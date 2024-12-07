@@ -1,7 +1,7 @@
 {
     type: UnitType
-    aiController: BuilderAI
-    isEnemy:false  
+    // aiController: BuilderAI
+    // isEnemy:false  
 
     lowAltitude:true
     flying:true
