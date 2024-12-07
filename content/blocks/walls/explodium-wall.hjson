@@ -35,7 +35,7 @@ destroyBullet: {
         {
         lifetime: 40
         type: ParticleEffect
-        colorFrom: ff0000
+        colorFrom: ff0000ff
         colorTo: aaaaaa00
         particles: 6
         randLength: true
@@ -43,18 +43,20 @@ destroyBullet: {
         sizeTo: 0
         region: circle
         length: 200
+        interp: pow1
         }
         {
-        lifetime: 20
+        lifetime: 80
         type: ParticleEffect
-        colorFrom: ffffff
-        colorTo: 888888
-        particles: 4
+        colorFrom: ffffffff
+        colorTo: 88888800
+        particles: 8
         randLength: true
-        sizeFrom: 8
+        sizeFrom: 32
         sizeTo: 0
         region: circle
         length: 100
+        pow2
         }
         {
             type: ExplosionEffect
