@@ -36,30 +36,30 @@ destroyBullet: {
 
     despawnEffect: [
         {
-        lifetime: 40
-        type: ParticleEffect
-        colorFrom: ff0000ff
-        colorTo: aaaaaa00
-        particles: 12
-        randLength: true
-        sizeFrom: 10
-        sizeTo: 0
-        region: circle
-        length: 400
-        interp: pow2Out
+            lifetime: 40
+            type: ParticleEffect
+            colorFrom: ff0000ff
+            colorTo: aaaaaa00
+            particles: 12
+            randLength: true
+            sizeFrom: 10
+            sizeTo: 0
+            region: circle
+            length: 400
+            interp: pow2Out
         }
         {
-        lifetime: 80
-        type: ParticleEffect
-        colorFrom: ffffffff
-        colorTo: 88888800
-        particles: 16
-        randLength: true
-        sizeFrom: 8
-        sizeTo: 0
-        region: circle
-        length: 200
-        interp: pow2Out
+            lifetime: 80
+            type: ParticleEffect
+            colorFrom: ffffffff
+            colorTo: 88888800
+            particles: 16
+            randLength: true
+            sizeFrom: 8
+            sizeTo: 0
+            region: circle
+            length: 200
+            interp: pow2Out
         }
         {
             type: ExplosionEffect
