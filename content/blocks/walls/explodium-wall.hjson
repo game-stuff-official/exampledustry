@@ -28,7 +28,7 @@ destroyBullet: {
     hittable: false
     hitEffect: none
     // despawnEffect: none
-    splashDamage: 100
+    splashDamage: 75
     splashDamageRadius: 75
 
     despawnEffect: [
