@@ -1,4 +1,6 @@
 {
+    name: Vdulk
+    description: "Protects Ormalute"
     type: UnitType
     // aiController: BuilderAI
     // isEnemy:false  
