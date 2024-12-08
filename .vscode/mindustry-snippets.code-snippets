@@ -6,14 +6,6 @@
 // m! is for fields
 
 {
-	"Vanilla Resources":{
-		"prefix": "m-r",
-		"body": [
-			"${1|copper, lead, titanium, graphite, surge, thorium, sand, scrap, phase-fabric|}"
-		]
-		},
-
-
 		"Vanilla Items":{
 			"prefix": "m-i",
 			"body": "${1|copper, scrap, lead, graphite, coal, titanium, thorium, silicon, plastanium, phase-fabric, surge-alloy, spore-pod, sand, blast-compound, pyratite, metaglass, beryllium, tungsten, oxide, carbide, fissile-matter, dormant-cyst|}"
