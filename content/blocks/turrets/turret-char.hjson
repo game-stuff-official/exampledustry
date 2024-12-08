@@ -31,7 +31,7 @@ ammoTypes: {
         collidesAir: false
         statusDuration: 240
         shootEffect: shootSmallFlame
-        hitEffect: hitSmallFlame
+        hitEffect: hitFlameSmall
         despawnEffect: none
         status: burning
         keepVelocity: false
@@ -46,7 +46,7 @@ ammoTypes: {
         collidesAir: false
         statusDuration: 600
         shootEffect: shootPyraFlame
-        hitEffect: hitSmallFlame
+        hitEffect: hitFlameSmall
         despawnEffect: none
         status: burning
         keepVelocity: false
