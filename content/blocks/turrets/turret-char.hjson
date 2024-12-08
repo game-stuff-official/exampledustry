@@ -29,7 +29,7 @@ research: {
 ammoTypes: {
     coal: {
         type: BulletType
-        damage: 17
+        damage: 34
         ammoMultiplier: 3
         hitSize: 14
         lifetime: 17
@@ -46,7 +46,7 @@ ammoTypes: {
     }
     pyratite: {
         type: BulletType
-        damage:60
+        damage: 120
         ammoMultiplier: 6
         hitSize: 14
         lifetime: 17
