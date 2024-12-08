@@ -30,7 +30,7 @@ ammoTypes: {
         pierce: true
         collidesAir: false
         statusDuration: 240
-        shootEffect: shootFlameSmall
+        shootEffect: shootSmallFlame
         hitEffect: hitSmallFlame
         despawnEffect: none
         status: burning
