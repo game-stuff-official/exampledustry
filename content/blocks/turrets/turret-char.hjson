@@ -3,9 +3,9 @@ type: ItemTurret
 name: Char
 description: Shoots flames at enemy units.
 size:2
-range: 470
+range: 120
 targetAir: false
-reload: 3
+reload: 6
 recoil: 2
 inaccuracy: 1
 shootCone: 10
@@ -24,6 +24,7 @@ research: {
 ammoTypes: {
     coal: {
         type: BulletType
+        damage: 17
         ammoMultiplier: 3
         hitSize: 14
         lifetime: 36
@@ -39,6 +40,7 @@ ammoTypes: {
     }
     pyratite: {
         type: BulletType
+        damage:60
         ammoMultiplier: 6
         hitSize: 14
         lifetime: 36
@@ -59,18 +61,18 @@ drawer: {
         {
             type: RegionPart
             suffix: -barrel-r
-            progress: recoil
+            progress: warmup
             mirror: false
             under: false
-            moveX: 1
+            moveX: 2
         }
         {
             type: RegionPart
             suffix: -barrel-l
-            progress: recoil
+            progress: warmup
             mirror: false
             under: false
-            moveX: -1
+            moveX: -2
         }
     ]
 }
