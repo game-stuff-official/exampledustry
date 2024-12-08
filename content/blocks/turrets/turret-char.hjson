@@ -7,7 +7,7 @@ range: 120
 targetAir: false
 reload: 6
 recoil: 2
-inaccuracy: 1
+inaccuracy: 20
 shootCone: 10
 shootSound: flame2
 scaledHealth: 240
@@ -20,6 +20,11 @@ research: {
     parent: core-ormalute
 }
 // shootEffect: shootFlameSmall
+// shoot:{
+//     type: shootAlternate
+//     shots: 4
+//     // spread: 15
+// }
 
 ammoTypes: {
     coal: {
@@ -27,7 +32,8 @@ ammoTypes: {
         damage: 17
         ammoMultiplier: 3
         hitSize: 14
-        lifetime: 36
+        lifetime: 17
+        speed: 7
         pierce: true
         collidesAir: false
         statusDuration: 240
@@ -43,7 +49,8 @@ ammoTypes: {
         damage:60
         ammoMultiplier: 6
         hitSize: 14
-        lifetime: 36
+        lifetime: 17
+        speed: 7
         pierce: true
         collidesAir: false
         statusDuration: 600
@@ -64,7 +71,7 @@ drawer: {
             progress: warmup
             mirror: false
             under: false
-            moveX: 2
+            moveX: 1.5
         }
         {
             type: RegionPart
@@ -72,7 +79,7 @@ drawer: {
             progress: warmup
             mirror: false
             under: false
-            moveX: -2
+            moveX: -1.5
         }
     ]
 }
