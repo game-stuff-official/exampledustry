@@ -25,7 +25,7 @@ shootEffect: [
         lifetime: 12
         particles: 8
         cone: 5
-        interp: pow2out
+        interp: pow2Out
         sizeInterp: linear
         region: circle
         sizeFrom: 2
@@ -38,7 +38,7 @@ shootEffect: [
         lifetime: 12
         particles: 8
         cone: 5
-        interp: pow2out
+        interp: pow2Out
         sizeInterp: linear
         region: circle
         sizeFrom: 2
