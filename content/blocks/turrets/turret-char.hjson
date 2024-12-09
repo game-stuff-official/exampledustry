@@ -24,25 +24,25 @@ shootEffect: [
         length: 60
         lifetime: 24
         particles: 8
-        cone: 5
-        interp: pow10Out
-        sizeInterp: linear
+        cone: 20
+        interp: pow5Out
+        sizeInterp: pow2out
         region: circle
         sizeFrom: 4
-        sizeTo: 0
+        sizeTo: 1
         colorFrom: 454545
         colorTo: 454545
     }
     {
-        length: 120
+        length: 240
         lifetime: 24
-        particles: 8
-        cone: 5
-        interp: pow10Out
+        particles: 16
+        cone: 20
+        interp: pow2Out
         sizeInterp: linear
         region: circle
         sizeFrom: 4
-        sizeTo: 0
+        sizeTo: 1
         colorFrom: ffdd55
         colorTo: db401c
     }
