@@ -26,7 +26,7 @@ shootEffect: [
         particles: 8
         cone: 20
         interp: pow5Out
-        sizeInterp: pow2out
+        sizeInterp: pow2Out
         region: circle
         sizeFrom: 4
         sizeTo: 1
