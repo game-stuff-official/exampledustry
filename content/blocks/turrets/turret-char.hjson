@@ -19,14 +19,20 @@ requirements:[
 research: {
     parent: core-ormalute
 }
+
+shoot: {
+    type: ShootPattern
+    shots: 10
+}
+
 shootEffect: [
     {
         length: 60
-        lifetime: 24
+        lifetime: 60
         particles: 8
         cone: 20
         interp: pow5Out
-        sizeInterp: pow2Out
+        sizeInterp: linear
         region: circle
         sizeFrom: 4
         sizeTo: 1
@@ -34,8 +40,8 @@ shootEffect: [
         colorTo: 454545
     }
     {
-        length: 240
-        lifetime: 24
+        length: 140
+        lifetime: 60
         particles: 16
         cone: 20
         interp: pow2Out
