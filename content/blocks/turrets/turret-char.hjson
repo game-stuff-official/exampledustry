@@ -19,12 +19,35 @@ requirements:[
 research: {
     parent: core-ormalute
 }
-// shootEffect: shootFlameSmall
-// shoot:{
-//     type: shootAlternate
-//     shots: 4
-//     // spread: 15
-// }
+shootEffect: [
+    {
+        length: 120
+        lifetime: 12
+        particles: 8
+        cone: 5
+        interp: pow2out
+        sizeInterp: linear
+        region: circle
+        sizeFrom: 2
+        sizeTo: 0
+        colorFrom: ffdd55
+        colorTo: db401c
+    }
+    {
+        length: 60
+        lifetime: 12
+        particles: 8
+        cone: 5
+        interp: pow2out
+        sizeInterp: linear
+        region: circle
+        sizeFrom: 2
+        sizeTo: 0
+        colorFrom: 454545
+        colorTo: 454545
+    }
+]
+
 
 ammoTypes: {
     coal: {
@@ -37,7 +60,7 @@ ammoTypes: {
         pierce: true
         collidesAir: false
         statusDuration: 240
-        shootEffect: shootSmallFlame
+        // shootEffect: shootSmallFlame
         hitEffect: hitFlameSmall
         despawnEffect: none
         status: burning
@@ -54,7 +77,7 @@ ammoTypes: {
         pierce: true
         collidesAir: false
         statusDuration: 600
-        shootEffect: shootPyraFlame
+        // shootEffect: shootPyraFlame
         hitEffect: hitFlameSmall
         despawnEffect: none
         status: burning
