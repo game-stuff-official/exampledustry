@@ -21,31 +21,32 @@ research: {
 }
 shootEffect: [
     {
-        length: 120
-        lifetime: 12
-        particles: 8
-        cone: 5
-        interp: pow2Out
-        sizeInterp: linear
-        region: circle
-        sizeFrom: 2
-        sizeTo: 0
-        colorFrom: ffdd55
-        colorTo: db401c
-    }
-    {
         length: 60
-        lifetime: 12
+        lifetime: 24
         particles: 8
         cone: 5
-        interp: pow2Out
+        interp: pow10Out
         sizeInterp: linear
         region: circle
-        sizeFrom: 2
+        sizeFrom: 4
         sizeTo: 0
         colorFrom: 454545
         colorTo: 454545
     }
+    {
+        length: 120
+        lifetime: 24
+        particles: 8
+        cone: 5
+        interp: pow10Out
+        sizeInterp: linear
+        region: circle
+        sizeFrom: 4
+        sizeTo: 0
+        colorFrom: ffdd55
+        colorTo: db401c
+    }
+
 ]
 
 
