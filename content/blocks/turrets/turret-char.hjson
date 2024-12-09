@@ -28,13 +28,13 @@ research: {
 shootEffect: [
     {
         length: 30
-        lifetime: 120
+        lifetime: 30
         particles: 2
-        cone: 20
+        cone: 40
         interp: pow5Out
         sizeInterp: linear
         region: circle
-        sizeFrom: 4
+        sizeFrom: 3
         sizeTo: 0
         colorFrom: 454545ff
         colorTo: 454545ff
