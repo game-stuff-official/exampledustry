@@ -101,7 +101,8 @@ drawer: {
             progress: warmup
             mirror: false
             under: false
-            moveX: 1.5
+            moveX: 4
+            growX: 2
         }
         {
             type: RegionPart
@@ -109,7 +110,8 @@ drawer: {
             progress: warmup
             mirror: false
             under: false
-            moveX: -1.5
+            moveX: -4
+            growY: 2
         }
     ]
 }
