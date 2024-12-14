@@ -64,8 +64,8 @@
             flameRadiusMag: 6
             // flameRadiusScl: 40
             flameRad: 4
-            alpha: 0.75
-            particleRad: 120
+            alpha: 0.50
+            particleRad: 60
             rotateScl: 0.25
             particleSize: 5
             particleLife: 60
@@ -77,8 +77,8 @@
             flameRadiusMag: 6
             flameRadiusScl: 7
             flameRad: 2
-            alpha: 0.75
-            particleRad: 60
+            alpha: 0.50
+            particleRad: 30
             rotateScl: 0.1
             particleSize: 5
             particleLife: 60
