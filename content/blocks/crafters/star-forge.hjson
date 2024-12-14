@@ -52,12 +52,26 @@
             suffix: -bottom
         }
         {
+            type: DrawCrucibleFlame
+            midColor: 7248a8
+            flameColor: 472f80
+            flameRadiusMag: 3
+            flameRadiusScl: 7
+            flameRad: 2
+            alpha: 0.50
+            particleRad: 30
+            rotateScl: 0.25
+            particleSize: 5
+            particleLife: 60
+        }
+        {
             type: DrawRegion
             suffix: -top
         }
         {
-            type: DrawHeatRegion
-            suffix: -heat
+            type: DrawGlowRegion
+            suffix: -glow
+            color: eb7d6e
         }
         {
             type: DrawCrucibleFlame
@@ -70,19 +84,6 @@
             rotateScl: 1
             particleSize: 5
             particleLife: 120
-        }
-        {
-            type: DrawCrucibleFlame
-            midColor: 7248a8
-            flameColor: 472f80
-            flameRadiusMag: 3
-            flameRadiusScl: 7
-            flameRad: 2
-            alpha: 0.50
-            particleRad: 30
-            rotateScl: 0.25
-            particleSize: 5
-            particleLife: 60
         }
     ]
 
