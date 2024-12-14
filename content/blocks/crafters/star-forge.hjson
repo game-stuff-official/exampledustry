@@ -7,7 +7,7 @@
     itemCapacity: 30
     separateItemCapacity: true
     consumes: {
-        power: 4
+        power: 40
         items: [
             harcite/3
             surge-alloy/1
