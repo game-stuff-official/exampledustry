@@ -18,7 +18,7 @@
         charged-alloy/5
     ]
 
-    craftTime: 900
+    craftTime: 450 // 7.5 seconds 
 
     category: crafting
     
