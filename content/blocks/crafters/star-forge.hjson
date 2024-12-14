@@ -25,7 +25,7 @@
         length: 60
         lifetime: 30
         particles: 15
-        interp: pow2in
+        interp: pow2In
         sizeInterp: linear
         region: circle
         sizeFrom: 6
