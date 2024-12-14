@@ -11,6 +11,7 @@
         items: [
             harcite/3
             surge-alloy/1
+            explodium/2
         ]
     }
 
@@ -22,7 +23,7 @@
 
     craftEffect: [
         {
-        length: 60
+        length: 120
         lifetime: 15 
         particles: 15
         interp: linear
@@ -30,8 +31,8 @@
         region: circle
         sizeFrom: 3
         sizeTo: 0
-        colorFrom: ffffff
-        colorTo: b57bd4
+        colorFrom: eb7d6e
+        colorTo: d44e4e
         }
     ]
     // updateEffect: [
