@@ -61,7 +61,9 @@
             type: DrawCrucibleFlame
             midColor: b57bd4
             flameColor: 7248a8
-            flameRadiusMag: 24
+            flameRadiusMag: 6
+            // flameRadiusScl: 40
+            flameRad: 40
         }
     ]
 
