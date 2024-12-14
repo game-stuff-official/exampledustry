@@ -2,10 +2,11 @@
     name: Star Forge
     description: Smelts surge and harcite in a furnace hotter than the sun.
     size: 5
-    scaledHealth: 50
+    scaledHealth: 50 // This is how much health the block has per block squared. 
     type: GenericCrafter
     itemCapacity: 30
-    separateItemCapacity: true
+
+    // What this crafter uses to craft
     consumes: {
         power: 40
         items: [
@@ -19,11 +20,12 @@
         charged-alloy/2
     ]
 
-    craftTime: 120
+    craftTime: 120 // Time in ticks. 60t/s. This block crafts once every 2 seconds.
 
-    ambientSound: smelter
-    ambientSoundVolume: 0.18
+    ambientSound: smelter // Sound crafter makes while is is on. A constatnly looping sound
+    ambientSoundVolume: 0.18 // How loud the ambientSound is. Silicon Crucible has a value of 0.09
 
+    // Effect played when the block crafts.
     craftEffect: [
         {
         length: 60
@@ -35,15 +37,16 @@
         sizeFrom: 3
         sizeTo: 0
         colorFrom: ffffff
-        colorTo: b57bd4
+        colorTo: b57bd4 // Light harcite purple
         }
     ]
 
+    // How the block is drawn. Draws from bottom to top. 
     drawer: [
-        // {
-        //     type: DrawRegion
-        //     suffix: -bottom
-        // }
+        { // -bottom sprite is drawn first
+            type: DrawRegion
+            suffix: -bottom
+        }
         {
             type: DrawRegion
             suffix: -top
@@ -61,7 +64,7 @@
             particleSize: 5
             particleLife: 60
         }
-        {
+        { // This crucible flame is drawn last.
             type: DrawCrucibleFlame
             midColor: 7248a8
             flameColor: 472f80
