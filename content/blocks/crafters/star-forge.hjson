@@ -66,7 +66,7 @@
             flameRad: 8
             alpha: 0.75
             particleRad: 240
-            rotateScl: 3
+            rotateScl: 200
         }
     ]
 
