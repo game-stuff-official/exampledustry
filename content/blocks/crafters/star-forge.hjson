@@ -63,7 +63,7 @@
             flameColor: 7248a8
             flameRadiusMag: 6
             // flameRadiusScl: 40
-            flameRad: 40
+            flameRad: 16
             alpha: 0.75
             particleRad: 240
         }
