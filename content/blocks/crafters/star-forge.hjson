@@ -4,6 +4,7 @@
     size: 4
     scaledHealth: 400
     type: GenericCrafter
+    itemCapacity: 30
     consumes: {
         power: 4
         items: [
