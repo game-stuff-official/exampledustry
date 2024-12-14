@@ -35,20 +35,20 @@
     //     colorTo: eb7d6e
     //     }
     // ]
-    updateEffect: [
-        {
-        length: 120
-        lifetime: 15 
-        particles: 4
-        interp: linear
-        sizeInterp: linear
-        region: circle
-        sizeFrom: 3
-        sizeTo: 0
-        colorFrom: ffffff
-        colorTo: eb7d6e
-        }
-    ]
+    // updateEffect: [
+    //     {
+    //     length: 120
+    //     lifetime: 15 
+    //     particles: 4
+    //     interp: linear
+    //     sizeInterp: linear
+    //     region: circle
+    //     sizeFrom: 3
+    //     sizeTo: 0
+    //     colorFrom: ffffff
+    //     colorTo: eb7d6e
+    //     }
+    // ]
     drawer: [
         // {
         //     type: DrawRegion
