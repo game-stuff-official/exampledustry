@@ -65,7 +65,7 @@
             particleRad: 60
             rotateScl: 1
             particleSize: 5
-            particleLife: 60
+            particleLife: 120
         }
         {
             type: DrawCrucibleFlame
