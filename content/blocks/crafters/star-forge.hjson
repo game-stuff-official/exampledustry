@@ -56,6 +56,10 @@
             suffix: -top
         }
         {
+            type: DrawHeatRegion
+            suffix: -heat
+        }
+        {
             type: DrawCrucibleFlame
             midColor: b57bd4
             flameColor: 7248a8
