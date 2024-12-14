@@ -70,6 +70,19 @@
             particleSize: 5
             particleLife: 60
         }
+        {
+            type: DrawCrucibleFlame
+            midColor: 7248a8
+            flameColor: 472f80
+            flameRadiusMag: 6
+            flameRadiusScl: 7
+            flameRad: 2
+            alpha: 0.75
+            particleRad: 60
+            rotateScl: 0.1
+            particleSize: 5
+            particleLife: 60
+        }
     ]
 
     category: crafting
