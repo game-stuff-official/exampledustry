@@ -2,7 +2,7 @@
     name: Charged Alloy
     description: "Strong alloy, stores energy before releasing it in arcs of electricity."
     
-    // color: d6d267
+    color: b57bd4
     radioactivity: 0
     charge: 3
     // hardness: 5
