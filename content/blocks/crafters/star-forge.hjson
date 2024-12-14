@@ -22,32 +22,32 @@
 
     craftEffect: [
         {
-        length: 30
+        length: 60
         lifetime: 30
         particles: 15
-        interp: pow5Out
+        interp: pow2Out
         sizeInterp: linear
         region: circle
-        sizeFrom: 3
+        sizeFrom: 6
         sizeTo: 0
-        colorFrom: b57bd4
-        colorTo: 7248a8
+        colorFrom: ffffff
+        colorTo: b57bd4
         }
     ]
-    updateEffect: [
-        {
-        length: 30
-        lifetime: 15
-        particles: 2
-        interp: pow5In
-        sizeInterp: linear
-        region: circle
-        sizeFrom: 2
-        sizeTo: 3
-        colorFrom: b57bd4
-        colorTo: 7248a8
-        }
-    ]
+    // updateEffect: [
+    //     {
+    //     length: 30
+    //     lifetime: 60
+    //     particles: 1
+    //     // interp: pow5In
+    //     sizeInterp: linear
+    //     region: circle
+    //     sizeFrom: 34
+    //     sizeTo: 3
+    //     colorFrom: b57bd4
+    //     colorTo: 7248a8
+    //     }
+    // ]
 
     category: crafting
     
