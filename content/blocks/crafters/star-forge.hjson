@@ -1,7 +1,7 @@
 {
     name: Star Forge
     description: Smelts surge and harcite in a furnace hotter than the sun.
-    size: 4
+    size: 5
     scaledHealth: 400
     type: GenericCrafter
     itemCapacity: 30
@@ -9,16 +9,45 @@
     consumes: {
         power: 4
         items: [
-            harcite/15
-            surge-alloy/5
+            harcite/3
+            surge-alloy/1
         ]
     }
 
     outputItems: [
-        charged-alloy/5
+        charged-alloy/1
     ]
 
-    craftTime: 450 // 7.5 seconds 
+    craftTime: 120
+
+    craftEffect: [
+        {
+        length: 30
+        lifetime: 30
+        particles: 15
+        interp: pow5Out
+        sizeInterp: linear
+        region: circle
+        sizeFrom: 3
+        sizeTo: 0
+        colorFrom: b57bd4
+        colorTo: 7248a8
+        }
+    ]
+    updateEffect: [
+        {
+        length: 30
+        lifetime: 15
+        particles: 2
+        interp: pow5In
+        sizeInterp: linear
+        region: circle
+        sizeFrom: 2
+        sizeTo: 3
+        colorFrom: b57bd4
+        colorTo: 7248a8
+        }
+    ]
 
     category: crafting
     
