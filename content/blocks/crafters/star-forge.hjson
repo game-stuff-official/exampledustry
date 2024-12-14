@@ -21,34 +21,21 @@
 
     craftTime: 120
 
-    // craftEffect: [
-    //     {
-    //     length: 120
-    //     lifetime: 15 
-    //     particles: 15
-    //     interp: linear
-    //     sizeInterp: linear
-    //     region: circle
-    //     sizeFrom: 3
-    //     sizeTo: 0
-    //     colorFrom: ffffff
-    //     colorTo: eb7d6e
-    //     }
-    // ]
-    // updateEffect: [
-    //     {
-    //     length: 120
-    //     lifetime: 15 
-    //     particles: 4
-    //     interp: linear
-    //     sizeInterp: linear
-    //     region: circle
-    //     sizeFrom: 3
-    //     sizeTo: 0
-    //     colorFrom: ffffff
-    //     colorTo: eb7d6e
-    //     }
-    // ]
+    craftEffect: [
+        {
+        length: 60
+        lifetime: 15 
+        particles: 10
+        interp: linear
+        sizeInterp: linear
+        region: circle
+        sizeFrom: 3
+        sizeTo: 0
+        colorFrom: ffffff
+        colorTo: eb7d6e
+        }
+    ]
+
     drawer: [
         // {
         //     type: DrawRegion
@@ -62,12 +49,12 @@
             type: DrawCrucibleFlame
             midColor: b57bd4
             flameColor: 7248a8
-            flameRadiusMag: 6
+            flameRadiusMag: 3
             // flameRadiusScl: 40
             flameRad: 4
             alpha: 0.50
             particleRad: 60
-            rotateScl: 0.75
+            rotateScl: 1
             particleSize: 5
             particleLife: 60
         }
@@ -75,7 +62,7 @@
             type: DrawCrucibleFlame
             midColor: 7248a8
             flameColor: 472f80
-            flameRadiusMag: 6
+            flameRadiusMag: 3
             flameRadiusScl: 7
             flameRad: 2
             alpha: 0.50
