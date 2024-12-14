@@ -73,18 +73,18 @@
             suffix: -glow
             color: eb7d6e
         }
-        {
-            type: DrawCrucibleFlame
-            midColor: b57bd4
-            flameColor: 7248a8
-            flameRadiusMag: 3
-            flameRad: 4
-            alpha: 0.50
-            particleRad: 60
-            rotateScl: 1
-            particleSize: 5
-            particleLife: 120
-        }
+        // {
+        //     type: DrawCrucibleFlame
+        //     midColor: b57bd4
+        //     flameColor: 7248a8
+        //     flameRadiusMag: 3
+        //     flameRad: 4
+        //     alpha: 0.50
+        //     particleRad: 60
+        //     rotateScl: 1
+        //     particleSize: 5
+        //     particleLife: 120
+        // }
     ]
 
     category: crafting
