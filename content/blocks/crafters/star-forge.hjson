@@ -15,7 +15,7 @@
     }
 
     outputItems: [
-        charged-alloy/1
+        charged-alloy/4
     ]
 
     craftTime: 120
