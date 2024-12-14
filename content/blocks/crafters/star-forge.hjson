@@ -21,34 +21,34 @@
 
     craftTime: 120
 
-    craftEffect: [
+    // craftEffect: [
+    //     {
+    //     length: 120
+    //     lifetime: 15 
+    //     particles: 15
+    //     interp: linear
+    //     sizeInterp: linear
+    //     region: circle
+    //     sizeFrom: 3
+    //     sizeTo: 0
+    //     colorFrom: ffffff
+    //     colorTo: eb7d6e
+    //     }
+    // ]
+    updateEffect: [
         {
         length: 120
         lifetime: 15 
-        particles: 15
+        particles: 4
         interp: linear
         sizeInterp: linear
         region: circle
         sizeFrom: 3
         sizeTo: 0
-        colorFrom: eb7d6e
-        colorTo: d44e4e
+        colorFrom: ffffff
+        colorTo: eb7d6e
         }
     ]
-    // updateEffect: [
-    //     {
-    //     length: 30
-    //     lifetime: 60
-    //     particles: 1
-    //     // interp: pow5In
-    //     sizeInterp: linear
-    //     region: circle
-    //     sizeFrom: 34
-    //     sizeTo: 3
-    //     colorFrom: b57bd4
-    //     colorTo: 7248a8
-    //     }
-    // ]
     drawer: [
         // {
         //     type: DrawRegion
