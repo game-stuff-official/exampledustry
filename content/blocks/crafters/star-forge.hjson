@@ -18,7 +18,7 @@
 
     craftTime: 900
 
-    category: 
+    category: crafting
     
     requirements:[
         graphite/200
