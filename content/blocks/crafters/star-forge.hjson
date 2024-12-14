@@ -28,8 +28,8 @@
         interp: linear
         sizeInterp: linear
         region: circle
-        sizeFrom: 24
-        sizeTo: 0
+        sizeFrom: 6
+        sizeTo: 6
         colorFrom: ffffff
         colorTo: b57bd4
         }
@@ -48,6 +48,22 @@
     //     colorTo: 7248a8
     //     }
     // ]
+    drawer: [
+        {
+            type: DrawRegion
+            suffix: -bottom
+        }
+        {
+            type: DrawRegion
+            suffix: -top
+        }
+        {
+            type: DrawCrucibleFlame
+            midColor: b57bd4
+            flameColor: 7248a8
+            flameRadiusMag: 24
+        }
+    ]
 
     category: crafting
     
