@@ -23,13 +23,13 @@
     craftEffect: [
         {
         length: 120
-        lifetime: 15
+        lifetime: 15 
         particles: 15
         interp: linear
         sizeInterp: linear
         region: circle
         sizeFrom: 6
-        sizeTo: 6
+        sizeTo: 0
         colorFrom: ffffff
         colorTo: b57bd4
         }
@@ -64,6 +64,8 @@
             flameRadiusMag: 6
             // flameRadiusScl: 40
             flameRad: 40
+            alpha: 0.75
+            particleRad: 240
         }
     ]
 
