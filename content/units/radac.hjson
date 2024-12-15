@@ -10,15 +10,16 @@
     envDisabled: 0
     payloadCapacity: 0
 
-
+    engineOffset: 10
+    itemOffsetY: 0 
     faceTarget: true
-
+    omniMovement: false
     hovering: true
     flying: true
     drag: 0.1
     speed: 1
     rotateSpeed: 1
-    accel: 0.05
+    accel: 0.5
     itemCapacity: 100
     health: 200
     hitSize: 11
