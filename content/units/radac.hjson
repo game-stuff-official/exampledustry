@@ -1,0 +1,23 @@
+{
+    name: Radac
+    description: Unit that transports items. Slow but carries lots of items.
+    controller: CargoAI
+    isEnemy: false
+    allowedInPayloads: false
+    logicControllable: false
+    playerControllable: false
+    envDisabled: 0
+    payloadCapacity: 0
+
+    hovering: true
+    drag: 0.06
+    speed: 3.5
+    rotateSpeed: 9
+    accel: 0.1
+    itemCapacity: 100
+    health: 200
+    hitSize: 11
+    hidden: false // change this after testing is done
+
+    legCount: 4
+}
