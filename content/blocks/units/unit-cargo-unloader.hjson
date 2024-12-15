@@ -1,0 +1,12 @@
+{
+  name: Cargo Unloader
+  type: UnitCargoUnloadPoint
+  size: 2
+  itemCapacity: 150
+
+
+  requirements:[
+    silicon/20
+    graphite/10
+  ]
+}
