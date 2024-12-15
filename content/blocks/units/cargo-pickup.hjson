@@ -2,7 +2,9 @@
   name: Cargo Pickup
   type: UnitCargoLoader
   size: 3
-  consumePower: 4
+  consume:{
+    power: 4
+  }
   itemCapacity: 250
 
   unitType: radac

@@ -2,7 +2,7 @@
     name: Radac
     description: Unit that transports items. Slow but carries lots of items.
     controller: CargoAI
-    unitType: Leg
+    type: legs
     isEnemy: false
     allowedInPayloads: false
     logicControllable: false
