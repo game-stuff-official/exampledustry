@@ -5,10 +5,12 @@
   consumePower: 4
   itemCapacity: 250
 
+  unitType: radac
 
   requirements:[
     silicon/80
     graphite/40
     harcite/20
   ]
+  category: distribution
 }
