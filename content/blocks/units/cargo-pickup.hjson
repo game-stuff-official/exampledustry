@@ -1,5 +1,5 @@
 {
-  name: Cargo Loader
+  name: Cargo Pickup
   type: UnitCargoLoader
   size: 3
   consumePower: 4

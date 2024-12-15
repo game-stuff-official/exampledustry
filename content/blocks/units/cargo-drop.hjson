@@ -1,5 +1,5 @@
 {
-  name: Cargo Unloader
+  name: Cargo Drop
   type: UnitCargoUnloadPoint
   size: 2
   itemCapacity: 150
