@@ -16,9 +16,9 @@
     omniMovement: false
     hovering: true
     flying: true
-    drag: 0.05
+    drag: 0.001
     speed: 2
-    rotateSpeed: 3
+    rotateSpeed: 6
     accel: 0.1
     itemCapacity: 100
     health: 200

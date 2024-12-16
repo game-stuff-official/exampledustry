@@ -1,6 +1,8 @@
-name: "exampledustry"
-displayName: "Exampledustry"
-author: "GameStuff"
-description: "A hjson mod with garbage content intended for modders to look at for example."
-version: 0.0.0
-minGameVersion: 136
+{
+  name: "exampledustry"
+  displayName: "Exampledustry"
+  author: "GameStuff"
+  description: "A mod with no real gameplay value but is instead made for modders to use as a resource."
+  version: 0.1.0
+  minGameVersion: 136
+}
