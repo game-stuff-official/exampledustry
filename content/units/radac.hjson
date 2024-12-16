@@ -11,14 +11,14 @@
     payloadCapacity: 0
 
     engineOffset: 8
-    itemOffsetY: 1
+    itemOffsetY: 1.5
     faceTarget: true
     omniMovement: false
     hovering: true
     flying: true
-    drag: 0.1
-    speed: 1
-    rotateSpeed: 1.5
+    drag: 0.05
+    speed: 2
+    rotateSpeed: 3
     accel: 0.5
     itemCapacity: 100
     health: 200
