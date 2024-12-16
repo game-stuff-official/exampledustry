@@ -1,9 +1,10 @@
 {
 name: Explodium
-type: OverlayFloor
+type: OreBlock
 itemDrop: explodium
 variants: 3
 hasColor: true
 mapColor: d44e4e
 wallOre: false
+canShadow: true
 }
