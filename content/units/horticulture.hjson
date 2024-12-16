@@ -4,7 +4,7 @@
     health: 50
     type: flying
     controller: MinerAI
-    defaultCommand: mineCommand
+    // defaultCommand: mineCommand
     allowChangeCommands: false
     isEnemy: false
     mineTier: 1
