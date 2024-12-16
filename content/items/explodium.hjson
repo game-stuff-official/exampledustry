@@ -1,6 +1,6 @@
 {
     name: Explodium
-    description: Dangerous item, there's no reason to have this in your possession.
+    description: Dangerous item. Used for simulating extreme enviornmets.
     hardness: 4
 
     color: d44e4e
