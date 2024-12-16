@@ -19,7 +19,7 @@
     drag: 0.05
     speed: 2
     rotateSpeed: 3
-    accel: 0.5
+    accel: 0.1
     itemCapacity: 100
     health: 200
     hitSize: 11
