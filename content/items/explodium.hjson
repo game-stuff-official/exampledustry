@@ -1,7 +1,8 @@
 {
     name: Explodium
     description: Dangerous item, there's no reason to have this in your possession.
-    
+    hardness: 4
+
     color: d44e4e
     explosiveness: 200
 
