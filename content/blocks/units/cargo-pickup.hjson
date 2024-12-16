@@ -2,8 +2,8 @@
   name: Cargo Pickup
   type: UnitCargoLoader
   size: 3
-  consumesPower: true
-  consumePower: 4
+  // consumesPower: true
+  // consumePower: 4
 
   itemCapacity: 250
 
