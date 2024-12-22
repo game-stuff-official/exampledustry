@@ -26,7 +26,7 @@
     drillTime: 360
 
     // arrowOffset: 45
-    arrows: 490
+    arrows: 1
     // drillEffect: {
     //     type: MultiEffect
     // }
