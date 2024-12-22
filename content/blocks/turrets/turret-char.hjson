@@ -1,5 +1,5 @@
 {
-type: ItemTurret
+type: itemTurret
 name: Char
 description: Shoots flames at enemy units.
 size:2
