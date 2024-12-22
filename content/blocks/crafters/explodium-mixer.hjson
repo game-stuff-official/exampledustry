@@ -1,0 +1,62 @@
+{
+    name: Explodium Mixer
+    description: Mixes Explodium, Blast Compound and Water
+    size: 2
+    // This is how much health the block has per block squared. 
+    scaledHealth: 30
+    type: GenericCrafter
+    itemCapacity: 10
+
+    // What this crafter uses to craft
+    consumes: {
+        power: 1
+        items: [
+            blast-compound/1
+            explodium/3
+        ]
+        liquids: [
+            water/0.05
+        ]
+    }
+
+    outputLiquids: [
+        liquid-blast-fluid/0.05
+    ]
+
+    // Time in ticks. 60t/s. This block crafts once every 2 seconds.
+    craftTime: 30
+    
+    // Sound crafter makes while is is on. A constantly looping sound
+    // ambientSound: smelter 
+    // How loud the ambientSound is. Silicon Crucible has a value of 0.09
+    // ambientSoundVolume: 0.18 
+
+    // Effect played when the block crafts.
+    // craftEffect: [
+    //     {
+    //     length: 60
+    //     lifetime: 15 
+    //     particles: 10
+    //     interp: linear
+    //     sizeInterp: linear
+    //     region: circle
+    //     sizeFrom: 3
+    //     sizeTo: 0
+    //     colorFrom: ffffff
+    //     colorTo: b57bd4 
+    //     }
+    // ]
+
+    // How the block is drawn. Draws from bottom to top. 
+    // drawer: [
+
+    // ]
+
+    category: crafting
+    
+    requirements:[
+        copper/ 15
+        lead/15
+        metaglass/30
+    ]
+}

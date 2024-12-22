@@ -3,6 +3,6 @@
   displayName: "Exampledustry"
   author: "GameStuff"
   description: "A mod with no real gameplay value but is instead made for modders to use as a resource."
-  version: 0.1.6
+  version: 0.1.7
   minGameVersion: 136
 }
