@@ -11,16 +11,15 @@
     consumes: {
         power: 1
         items: [
-            blast-compound/1
             explodium/3
         ]
         liquids: [
-            water/0.05
+            water/0.1
         ]
     }
 
     outputLiquids: [
-        liquid-blast-fluid/0.05
+        liquid-blast-fluid/0.1
     ]
 
     // Time in ticks. 60t/s. This block crafts once every 2 seconds.
