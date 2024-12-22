@@ -25,6 +25,7 @@
     tier: 7
     drillTime: 360
 
+    arrowOffset: 45
     // drillEffect: {
     //     type: MultiEffect
     // }
