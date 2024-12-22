@@ -27,6 +27,8 @@
 
     // arrowOffset: 45
     arrows: 1
+
+    arrowColor: eb7d6e
     // drillEffect: {
     //     type: MultiEffect
     // }
