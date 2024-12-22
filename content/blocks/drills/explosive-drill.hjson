@@ -10,8 +10,13 @@
     ]
     category: production
     hasPower: true
-    consumePower: 3
-    consumeItem: explodium/15
+
+    consumes: {
+        power: 3
+        items: [
+            explodium/15
+        ]
+    }
 
     tier: 7
     drillTime: 360
