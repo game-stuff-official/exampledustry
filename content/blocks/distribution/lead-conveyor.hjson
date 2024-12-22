@@ -8,9 +8,9 @@ requirements: [
   copper/2
   lead/2
 ]
-// Speed of conveyor. Conveyor has speed of 0.03. 0.12 is 4x as fast.
-speed: 0.12
-displayedSpeed: 33.6
+// Speed of conveyor. Conveyor has speed of 0.03.
+speed: 0.03
+displayedSpeed: 4.2
 research: {
   parent: core-ormalute
 }
