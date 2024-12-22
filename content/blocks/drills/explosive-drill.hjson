@@ -29,6 +29,8 @@
     arrows: 1
 
     arrowColor: eb7d6e
+    glowColor: eb7d6e
+    baseArrowColor: d44e4e
     // drillEffect: {
     //     type: MultiEffect
     // }
