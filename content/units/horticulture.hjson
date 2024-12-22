@@ -2,7 +2,7 @@
     name: Horticulture
     description: Mines Copper
     health: 50
-    type: tether
+    type: flying
     controller: MinerAI
     defaultController: MinerAI
     // defaultCommand: mineCommand
