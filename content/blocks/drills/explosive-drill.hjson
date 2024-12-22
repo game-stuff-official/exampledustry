@@ -28,7 +28,7 @@
     // arrowOffset: 45
     arrows: 1
 
-    arrowColor: eb7d6e
+    arrowColor: fb8d7e
     glowColor: eb7d6e
     baseArrowColor: d44e4e
     // drillEffect: {
