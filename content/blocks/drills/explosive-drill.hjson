@@ -33,7 +33,7 @@
     //     type: MultiEffect
     // }
 
-    shake: 40
+    shake: 1
     itemCapacity: 30
 
 }
