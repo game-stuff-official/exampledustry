@@ -14,8 +14,11 @@
 
     consumes: {
         power: 3
-        items: [
-            explodium/15
+        // items: [
+        //     explodium/5
+        // ]
+        liquids: [
+            water/0.25
         ]
     }
 
