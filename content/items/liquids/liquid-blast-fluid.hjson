@@ -1,0 +1,8 @@
+{
+    name: Blast Fluid
+    description: Fluid infused with Explodium and Blast compound. Used in extreme drilling operations.
+    type: Liquid
+    viscosity: 0.65
+    explosiveness: 1
+    coolant: false
+}

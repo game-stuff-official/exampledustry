@@ -18,7 +18,7 @@
         //     explodium/5
         // ]
         liquids: [
-            water/0.25
+            liquid-blast-fluid/0.05
         ]
     }
 
