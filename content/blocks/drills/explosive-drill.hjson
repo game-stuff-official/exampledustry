@@ -10,6 +10,7 @@
     ]
     category: production
     hasPower: true
+    separateItemCapacity: true
 
     consumes: {
         power: 3
