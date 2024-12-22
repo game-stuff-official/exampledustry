@@ -15,4 +15,5 @@
     drag : 0.06
     accel: 0.06
     speed: 3
+    hitSize: 4
 }
