@@ -1,5 +1,5 @@
 {
-name: Charged Wall
+name: Large Charged Wall
 description: Releases huge arcs of electricity. Stronger than a harcite wall.
 scaledHealth: 360
 type: wall
