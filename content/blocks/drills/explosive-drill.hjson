@@ -1,0 +1,26 @@
+{
+    name: Explosive Drill
+    type: BurstDrill
+    description: Uses explodium to mine the most stubborn of ores
+    size: 4
+    requirements:[
+        copper/70
+        silicon/60
+        titanium/20
+    ]
+    category: production
+    hasPower: true
+    consumePower: 3
+    consumeItem: explodium/15
+
+    tier: 7
+    drillTime: 360
+
+    // drillEffect: {
+    //     type: MultiEffect
+    // }
+
+    shake: 3
+    itemCapacity: 30
+
+}
