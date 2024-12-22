@@ -1,7 +1,7 @@
 {
     name: "Ormalute"
     description: "The beginning will end."
-    type: CoreBlock
+    type: coreBlock
     size: 3
     // thruster1: ormalute-thruster1
     // thruster2: ormalute-thruster2
