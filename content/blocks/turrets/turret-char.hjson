@@ -1,5 +1,4 @@
-{
-type: itemTurret
+type: ItemTurret
 name: Char
 description: Shoots flames at enemy units.
 size:2
@@ -112,5 +111,4 @@ drawer: {
             moveX: -1.5
         }
     ]
-}
 }
