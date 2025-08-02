@@ -46,8 +46,28 @@
     //     }
     // ]
 
-    // How the block is drawn. Draws from bottom to top. 
-    // drawer: [
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+      {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 1
+    }
+      {
+      type: DrawLiquidTile
+      drawLiquid: liquid-blast-fluid
+      alpha: 1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
 
     // ]
 
