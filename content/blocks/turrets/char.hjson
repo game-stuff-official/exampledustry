@@ -2,7 +2,7 @@ type: ItemTurret
 category: turret
 name: Char
 description: Shoots flames at enemy units.
-size:2
+size: 2
 range: 120
 targetAir: false
 reload: 6
@@ -121,7 +121,7 @@ shootEffect: [
 }
 drawer: {
     type: drawTurret
-    basePrefix: block-
+    basePrefix: serpulo-
     parts: [
         {
             type: RegionPart
