@@ -100,7 +100,7 @@ shootEffect: [
         sizeFrom: 3
         sizeTo: 0
         colorFrom: 454545ff
-        colorTo: CD6C21
+        colorTo: A84414
     }
     {
         length: 140
@@ -113,7 +113,7 @@ shootEffect: [
         sizeFrom: 4
         sizeTo: 0
         colorFrom: ffdd55ff
-        colorTo: CD6C21
+        colorTo: A84414
     }
 
 ]
