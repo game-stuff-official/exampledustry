@@ -6,7 +6,7 @@ size:2
 range: 120
 targetAir: false
 reload: 6
-recoil: 2
+recoil: 0.5
 inaccuracy: 20
 shootCone: 10
 shootSound: flame2
@@ -25,6 +25,23 @@ research: {
 //     shots: 10
 // }
 
+ammoTypes: {
+    coal: {
+        type: BulletType
+        damage: 34
+        ammoMultiplier: 3
+        hitSize: 14
+        lifetime: 17
+        speed: 7
+        pierce: true
+        collidesAir: false
+        statusDuration: 240
+        // shootEffect: shootSmallFlame
+        hitEffect: hitFlameSmall
+        despawnEffect: none
+        status: burning
+        keepVelocity: false
+        hittable: false
 shootEffect: [
     {
         length: 30
@@ -54,25 +71,6 @@ shootEffect: [
     }
 
 ]
-
-
-ammoTypes: {
-    coal: {
-        type: BulletType
-        damage: 34
-        ammoMultiplier: 3
-        hitSize: 14
-        lifetime: 17
-        speed: 7
-        pierce: true
-        collidesAir: false
-        statusDuration: 240
-        // shootEffect: shootSmallFlame
-        hitEffect: hitFlameSmall
-        despawnEffect: none
-        status: burning
-        keepVelocity: false
-        hittable: false
     }
     pyratite: {
         type: BulletType
@@ -90,6 +88,35 @@ ammoTypes: {
         status: burning
         keepVelocity: false
         hittable: false
+shootEffect: [
+    {
+        length: 30
+        lifetime: 30
+        particles: 2
+        cone: 40
+        interp: pow5Out
+        sizeInterp: linear
+        region: circle
+        sizeFrom: 3
+        sizeTo: 0
+        colorFrom: 454545ff
+        colorTo: CD6C21
+    }
+    {
+        length: 140
+        lifetime: 60
+        particles: 8
+        cone: 20
+        interp: pow2Out
+        sizeInterp: linear
+        region: circle
+        sizeFrom: 4
+        sizeTo: 0
+        colorFrom: ffdd55ff
+        colorTo: CD6C21
+    }
+
+]
     }
 }
 drawer: {
