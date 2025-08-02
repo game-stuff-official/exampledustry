@@ -125,7 +125,7 @@ drawer: {
     parts: [
         {
             type: RegionPart
-            suffix: -barrel-r
+            suffix: -r
             progress: warmup
             mirror: false
             under: false
@@ -133,7 +133,7 @@ drawer: {
         }
         {
             type: RegionPart
-            suffix: -barrel-l
+            suffix: -l
             progress: warmup
             mirror: false
             under: false
