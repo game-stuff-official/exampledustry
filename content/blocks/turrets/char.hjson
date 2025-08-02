@@ -7,7 +7,7 @@ size: 2
 range: 120
 targetAir: false
 reload: 6
-recoil: 0.1
+recoil: 0.05
 inaccuracy: 20
 shootCone: 10
 shootSound: flame2
@@ -121,8 +121,8 @@ shootEffect: [
     }
 }
 drawer: {
-    type: drawTurret
-    basePrefix: serpulo-
+    type: DrawTurret
+    basePrefix: block-
     parts: [
         {
             type: RegionPart
