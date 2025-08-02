@@ -122,7 +122,6 @@ shootEffect: [
 }
 drawer: {
     type: DrawTurret
-    basePrefix: block-
     parts: [
         {
             type: RegionPart
