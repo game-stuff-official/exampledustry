@@ -121,7 +121,7 @@ shootEffect: [
 }
 drawer: {
     type: drawTurret
-    basePrefix: serpulo-block-
+    basePrefix: serpulo-
     parts: [
         {
             type: RegionPart
