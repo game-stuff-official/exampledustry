@@ -11,6 +11,7 @@
     isFirstTier: true
     itemCapacity: 4001
     unitCapModifier: 9
+    category: effect
     requirements:[
         explodium/1000
         copper/5000
