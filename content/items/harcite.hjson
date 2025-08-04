@@ -3,8 +3,8 @@
     description: "Rare metal forged in the heart of stars. Suprisingly brittle but powerfully charged."
     
     color: 7248a8
-    radioactivity: 1
-    charge: 5
+    radioactivity: 1.25
+    charge: 3.5
     hardness: 6
     cost: 10
     // frames: 2
