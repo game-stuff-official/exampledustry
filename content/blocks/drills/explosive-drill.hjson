@@ -20,7 +20,7 @@
     }
 
     tier: 7
-    drillTime: 120
+    drillTime: 90
 
     // arrowOffset: 45
     arrows: 1
