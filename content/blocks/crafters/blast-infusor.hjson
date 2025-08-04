@@ -22,18 +22,30 @@ blast-compound/1
 ]
 
 craftTime: 50
+ 
+requirements: [
+titanium/60
+plastanium/20
+silicon/30
+]
     
 ambientSound: smelter 
 ambientSoundVolume: 0.18 
 
  craftEffect: [
+     {
+     length: 60
+     lifetime: 15 
+     particles: 10
+     interp: linear
+     sizeInterp: linear
+     region: circle
+     sizeFrom: 3
+     sizeTo: 0
+     colorFrom: ffffff
+     colorTo: b57bd4 
+     }
  ]
-
-
-
-
-
-
 
 drawer: {
   type: DrawMulti
