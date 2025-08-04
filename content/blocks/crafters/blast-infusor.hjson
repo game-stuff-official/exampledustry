@@ -1,4 +1,31 @@
+    name: Blast Infusor
+    description: Creates blast compound with a simpler recipe to the blast mixer
+    size: 3
+    scaledHealth: 50
+    type: GenericCrafter
+    itemCapacity: 10
 
+    consumes: {
+        power: 4.5
+        items: [
+            explodium/2
+        ]
+        liquids: [
+            oil/0.2
+        ]
+    }
+
+outputItems: [
+blast-compound/1
+]
+
+craftTime: 50
+    
+ambientSound: smelter 
+ambientSoundVolume: 0.18 
+
+ craftEffect: [
+ ]
 
 
 
