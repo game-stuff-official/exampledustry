@@ -5,8 +5,10 @@
     size: 4
     requirements:[
         copper/70
-        silicon/60
-        titanium/20
+        titanium/30
+        thorium/60
+        silicon/70
+        plastanium/30
     ]
     category: production
     hasPower: true
