@@ -3,7 +3,7 @@
     description: Fluid infused with Explodium and Blast compound. Used in extreme drilling operations.
     // type: Liquid
     viscosity: 0.65
-    explosiveness: 1
+    explosiveness: 1.25
     coolant: false
     color: FCA78D
 }
