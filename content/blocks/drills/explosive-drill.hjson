@@ -14,16 +14,13 @@
 
     consumes: {
         power: 3
-        // items: [
-        //     explodium/5
-        // ]
         liquids: [
             liquid-blast-fluid/0.05
         ]
     }
 
     tier: 7
-    drillTime: 360
+    drillTime: 120
 
     // arrowOffset: 45
     arrows: 1
@@ -36,6 +33,6 @@
     // }
 
     shake: 1
-    itemCapacity: 30
+    itemCapacity: 60
 
 }
