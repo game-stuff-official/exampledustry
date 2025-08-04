@@ -4,6 +4,7 @@
     scaledHealth: 50
     type: GenericCrafter
     itemCapacity: 10
+    category: crafting
 
     consumes: {
         power: 4.5
