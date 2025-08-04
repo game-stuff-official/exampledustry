@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oil
+      alpha: 1
+    }
+  {
+type: drawPistons
+suffix: -piston
+sides: 4
+sinMag: 3
+sinScl: 10
+sideOffset: 5
+sinOffset: 50
+angleOffset: 0
+}
+  {
+type: drawPistons
+suffix: -piston
+sides: 4
+sinMag: 3
+sinScl: 10
+sideOffset: 5
+sinOffset: 50
+angleOffset: 45
+}
+    {
+      type: DrawDefault
+    }
+  ]
+}
